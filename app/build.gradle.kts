@@ -61,7 +61,7 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     
     // Sceneview for 3D Rendering (Filament wrapper)
-    implementation("io.github.sceneview:ar:1.0.3") 
+    implementation("io.github.sceneview:sceneview:2.0.3") 
     
     // TensorFlow Lite
     implementation("org.tensorflow:tensorflow-lite:2.14.0")
@@ -76,3 +76,4 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+
