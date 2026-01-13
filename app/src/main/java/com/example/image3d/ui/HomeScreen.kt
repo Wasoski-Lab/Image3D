@@ -16,6 +16,7 @@ import androidx.compose.ui.unit.dp
 import com.example.image3d.domain.DetectedObject
 import java.io.InputStream
 import android.graphics.BitmapFactory
+import androidx.compose.foundation.lazy.LazyColumn
 
 @Composable
 fun HomeScreen() {
@@ -85,5 +86,5 @@ fun HomeScreen() {
     }
 }
 
-// Temporary placeholder for LazyColumn items import
-import androidx.compose.foundation.lazy.LazyColumn
+
+
